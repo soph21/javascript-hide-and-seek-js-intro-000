@@ -17,10 +17,11 @@ for (let i=0; i<y.length; i++){
 }
 
 function deepestChild() {
-  let a = document.querySelector('#grand-node')
-  let i = 0
-  while (i < a.length) {
-    a[i].innerHTML
-    i++
+  let a = document.getElementById('grand-node')
+  let b = a.children[0]
+  while (b) {
+    a = b
+    b = a.children[0]
     }
+    return a 
   }
