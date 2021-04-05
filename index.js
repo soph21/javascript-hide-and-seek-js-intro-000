@@ -10,9 +10,14 @@ return x
 
 function increaseRankBy(n) {
 let y = document.querySelectorAll('ul.ranked-list li')
+<<<<<<< HEAD
 for (let i=0; i<y.length; i++){
   //parseInt(y[i].innerHTML) = y + n
   y[i].innerHTML= parseInt(y[i].innerHTML) + n
+=======
+for (let i=0; y.length; i <1; i++){
+  console.log('Hello')
+>>>>>>> a2a63796e4398a8e123ea68f64606e7a802d527c
 }
 }
 
